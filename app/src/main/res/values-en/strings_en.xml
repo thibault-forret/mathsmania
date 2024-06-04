@@ -6,5 +6,9 @@
     <string name="text_description_jeu">Numbers game</string>
     <string name="bouton_jouer">Play</string>
     <string name="bouton_meilleur_score">Highscore</string>
+    <string name="text_game_score">Score:</string>
+    <string name="text_game_life">❤️</string>
+    <string name="text_reply_button">Reply</string>
+    <string name="text_reply_input">Enter the reply</string>
 
 </resources>

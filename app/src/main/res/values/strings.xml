@@ -5,4 +5,8 @@
     <string name="text_description_jeu">Jeu des nombres</string>
     <string name="bouton_jouer">Jouer</string>
     <string name="bouton_meilleur_score">Meilleurs score</string>
+    <string name="text_game_score">Score :</string>
+    <string name="text_game_life">❤️</string>
+    <string name="text_reply_button">Répondre</string>
+    <string name="text_reply_input">Entrez la réponse</string>
 </resources>
