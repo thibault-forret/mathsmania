@@ -5,10 +5,16 @@
     <string name="text_nom_jeu">MathsMania</string>
     <string name="text_description_jeu">Numbers game</string>
     <string name="bouton_jouer">Play</string>
-    <string name="bouton_meilleur_score">Highscore</string>
+    <string name="bouton_meilleur_score">Best scores</string>
     <string name="text_game_score">Score:</string>
     <string name="text_game_life">❤️</string>
     <string name="text_reply_button">Reply</string>
     <string name="text_reply_input">Enter the reply</string>
+    <string name="text_fin_de_partie">Enter your nickname to save your score</string>
+    <string name="bouton_sauvegarder_score">Save</string>
+    <string name="text_score">Your score</string>
+    <string name="text_meilleurs_scores">BEST SCORES</string>
+    <string name="score_label">"Score: %s"</string>
+
 
 </resources>
