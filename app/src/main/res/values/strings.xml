@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">miniJeuCalculMental</string>
+    <string name="app_name">MathsMania</string>
 
     <string name="text_nom_jeu">MathsMania</string>
     <string name="text_description_jeu">Jeu des nombres</string>
