@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button buttonJouer;
     private Button buttonMeilleursScore;
+    private Button buttonAPropos;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         buttonJouer = findViewById(R.id.bouton_jouer);
         buttonMeilleursScore = findViewById(R.id.meilleurs_score);
+        buttonAPropos = findViewById(R.id.a_propos);
 
         buttonJouer.setOnClickListener(view -> {
             Intent intent = new Intent(this, GameActivity.class);
@@ -32,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, HighscoreActivity.class);
             startActivity(intent);
         });
+
+        buttonAPropos.setOnClickListener(view -> {
+            Intent intent = new Intent(this, AboutActivity.class);
+            startActivity(intent);
+        });
+
 
 
 

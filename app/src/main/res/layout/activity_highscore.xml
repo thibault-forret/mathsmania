@@ -33,7 +33,7 @@
                 android:fontFamily="@font/architects_daughter"
                 android:text="@string/text_meilleurs_scores"
                 android:textAlignment="center"
-                android:textColor="@color/background_blue"
+                android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 

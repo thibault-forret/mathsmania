@@ -6,10 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_orange"
-    tools:context=".MainActivity">
+    tools:context=".AboutActivity">
 
     <LinearLayout
-        android:id="@+id/MainLayout"
+        android:id="@+id/AboutLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:id="@+id/GameNameLayout"
+            android:id="@+id/CreatorLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -27,73 +27,71 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/nom_jeu"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/architects_daughter"
-                android:text="@string/text_nom_jeu"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="60sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/description_jeu"
+                android:id="@+id/title_about"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="40sp"
                 android:fontFamily="@font/architects_daughter"
-                android:text="@string/text_description_jeu"
+                android:text="@string/titre_a_propos"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/creator_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/architects_daughter"
+                android:text="@string/text_createur"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/creator_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40sp"
+                android:fontFamily="@font/architects_daughter"
+                android:text="@string/text_nom_createur"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ButtonActionLayout"
+            android:id="@+id/FeaturesLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/bouton_jouer"
+            <TextView
+                android:id="@+id/features"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="40sp"
-                android:layout_marginVertical="20sp"
-                android:backgroundTint="@color/background_green"
                 android:fontFamily="@font/architects_daughter"
-                android:paddingVertical="15sp"
-                android:text="@string/bouton_jouer"
+                android:text="@string/text_features"
+                android:textAlignment="center"
+                android:textColor="@color/white"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/meilleurs_score"
+            <TextView
+                android:id="@+id/creator_name4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="40sp"
-                android:backgroundTint="@color/background_blue"
+                android:layout_marginBottom="40sp"
                 android:fontFamily="@font/architects_daughter"
-                android:padding="15dp"
-                android:text="@string/bouton_meilleur_score"
-                android:textSize="30sp"
+                android:text="@string/text_liste_features"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/a_propos"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="40sp"
-                android:layout_marginTop="20sp"
-                android:backgroundTint="@android:color/transparent"
-                android:fontFamily="@font/architects_daughter"
-                android:padding="10dp"
-                android:text="@string/bouton_a_propos"
-                android:textSize="25sp"
-                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

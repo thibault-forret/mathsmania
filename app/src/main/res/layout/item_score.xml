@@ -2,15 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/round_corner_item_score"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/textViewScore"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Score: "
-        android:textSize="18sp"
+        android:fontFamily="@font/architects_daughter"
+        android:padding="10sp"
+        android:text="Thibault : 10"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <!-- Autres vues pour afficher les détails du score -->

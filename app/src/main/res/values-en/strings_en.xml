@@ -6,6 +6,18 @@
     <string name="text_description_jeu">Numbers game</string>
     <string name="bouton_jouer">Play</string>
     <string name="bouton_meilleur_score">Best scores</string>
+    <string name="bouton_a_propos">About</string>
+    <string name="titre_a_propos">About</string>
+    <string name="text_createur">Create by</string>
+    <string name="text_nom_createur">Thibault Forret\nAnd\nQuentin Massoulle</string>
+    <string name="text_features">Features</string>
+    <string name="text_liste_features">
+        Difficulty selection mode\n
+        Evolutionary mode\n
+        Game mode storage in database
+    </string>
+
+
     <string name="text_game_score">Score:</string>
     <string name="text_game_life">❤️</string>
     <string name="text_reply_button">Reply</string>
@@ -14,7 +26,6 @@
     <string name="bouton_sauvegarder_score">Save</string>
     <string name="text_score">Your score</string>
     <string name="text_meilleurs_scores">BEST SCORES</string>
-    <string name="score_label">"Score: %s"</string>
 
 
 </resources>

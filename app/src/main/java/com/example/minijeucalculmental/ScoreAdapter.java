@@ -31,8 +31,11 @@ public class ScoreAdapter extends RecyclerView.Adapter<ScoreAdapter.ScoreViewHol
     public void onBindViewHolder(@NonNull ScoreViewHolder holder, int position) {
         Score score = scores.get(position);
 
-        // Voir pour ajouter le pseudo
-        String scoreLabel = holder.itemView.getContext().getString(R.string.score_label, score.getScoreUserElement().toString());
+        String username = score.getUsernameElement();
+        String scoreUser = score.getScoreUserElement().toString();
+
+        String scoreLabel = String.format("%s - %s", username, scoreUser);
+
         holder.textViewScore.setText(scoreLabel);
     }
 
