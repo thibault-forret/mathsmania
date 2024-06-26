@@ -11,9 +11,7 @@
     <string name="text_nom_createur">Thibault Forret\nEt\nQuentin Massoulle</string>
     <string name="text_features">Fonctionnalités supplémentaire</string>
     <string name="text_liste_features">
-        Mode choix difficulté\n
-        Mode évolutif\n
-        Stock du mode de jeu dans BDD
+        Change couleur fond -> Difficulté
     </string>
 
     <string name="text_game_score">Score :</string>

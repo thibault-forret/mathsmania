@@ -12,9 +12,7 @@
     <string name="text_nom_createur">Thibault Forret\nAnd\nQuentin Massoulle</string>
     <string name="text_features">Features</string>
     <string name="text_liste_features">
-        Difficulty selection mode\n
-        Evolutionary mode\n
-        Game mode storage in database
+        Change background color -> Difficulty
     </string>
 
 

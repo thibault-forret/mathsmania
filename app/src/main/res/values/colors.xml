@@ -5,4 +5,12 @@
     <color name="background_orange">#FF7522</color>
     <color name="background_green">#74FEC3</color>
     <color name="background_blue">#61E8FF</color>
+
+    <color name="difficulty_1">#2ECC71</color>
+    <color name="difficulty_2">#DEF10F</color>
+    <color name="difficulty_3">#F39C12</color>
+    <color name="difficulty_4">#E74C3C</color>
+    <color name="difficulty_5">#420000</color>
+    <color name="difficulty_6">#000000</color>
+
 </resources>
